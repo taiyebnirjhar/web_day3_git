@@ -1,10 +1,55 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
-
+:root {
+  --h1: 3rem;
+  --h2: 2.5rem;
+  --h3: 1.5rem;
+}
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
 body {
-  background-color: #bbbde6;
-  width: 100vh;
-  max-height: calc(100vh - 10px);
+  border: 1px solid red;
+
+  /* width: 100vw;
+  height: calc(100vh - 10px); */
+  /* overflow: hidden; */
+  width: 50%;
+  margin: 1rem auto;
+}
+
+header {
+  /* border: 1px solid blue; */
+  font-family: "Economica", sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 5px solid burlywood;
+}
+main {
+  /* border: 1px solid green; */
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.second-ul {
+  padding-left: 1.2rem;
+}
+main h2 {
+  font-family: "Economica", sans-serif;
+  padding-bottom: 1rem;
+  /* font-weight: 800; */
+}
+main ul {
+  padding-left: 1.2rem;
 }
